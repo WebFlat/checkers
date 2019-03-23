@@ -30,9 +30,12 @@ body {
 }
 .checker--white {
 	background-color: #fff;
+	border: 2px solid #000;
 }
 .checker--black {
 	background-color: #000;
+	border: 2px solid #fff;
+
 }
 .line__1 {
 	bottom: 2.1rem;
