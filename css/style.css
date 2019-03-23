@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 10px;
+}
+.checkers--wrapper {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/ODR9NR0.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.line {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	position: absolute;
+}
+.checker {
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+/*	outline: 1px solid red;
+*/	margin-right: 7.04rem;
+}
+.checker--white {
+	background-color: #fff;
+}
+.checker--black {
+	background-color: #000;
+}
+.line__1 {
+	bottom: 2.1rem;
+	left: 24.25rem;	
+}
+.line__2 {
+	bottom: 7.5rem;
+	left: 29.55rem;	
+}
+.line__3 {
+	bottom: 12.8rem;
+	left: 24.25rem;	
+}
+.line__4 {
+	top: 12.8rem;
+	left: 29.55rem;
+}
+.line__5 {
+	top: 7.5rem;
+	left: 24.25rem;
+}
+.line__6 {
+	top: 2.1rem;
+	left: 29.55rem;	
+}
