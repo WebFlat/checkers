@@ -3,11 +3,14 @@
 }
 body {
 	font-size: 10px;
+	/*width: 85%;
+	margin: 0 auto;*/
 }
 .checkers--wrapper {
-	width: 100%;
-	height: 100vh;
-	background-image: url(../img/ODR9NR0.jpg);
+	margin: 0 auto;
+	width: 43rem;
+	height: 43rem;
+	background-image: url(../img/desk.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -22,42 +25,44 @@ body {
 	position: absolute;
 }
 .checker {
-	width: 3.5rem;
-	height: 3.5rem;
+	width: 3rem;
+	height: 3rem;
 	border-radius: 50%;
 /*	outline: 1px solid red;
-*/	margin-right: 7.04rem;
+*/}
+.checker:not(:last-child) {
+	margin-right: 5.61rem;	
 }
+
 .checker--white {
 	background-color: #fff;
-	border: 2px solid #000;
+	border: .2rem solid #000;
 }
 .checker--black {
 	background-color: #000;
-	border: 2px solid #fff;
-
+	border: .2rem solid #fff;
 }
 .line__1 {
-	bottom: 2.1rem;
-	left: 24.25rem;	
+	bottom: 5rem;
+	left: 9.25rem;	
 }
 .line__2 {
-	bottom: 7.5rem;
-	left: 29.55rem;	
+	bottom: 9.3rem;
+	left: 4.95rem;	
 }
 .line__3 {
-	bottom: 12.8rem;
-	left: 24.25rem;	
+	bottom: 13.5rem;
+	left: 9.25rem;	
 }
 .line__4 {
-	top: 12.8rem;
-	left: 29.55rem;
+	top: 13.5rem;
+	left: 4.95rem;	
 }
 .line__5 {
-	top: 7.5rem;
-	left: 24.25rem;
+	top: 9.3rem;
+	left: 9.25rem;	
 }
 .line__6 {
-	top: 2.1rem;
-	left: 29.55rem;	
+	top: 5rem;
+	left: 4.95rem;	
 }
