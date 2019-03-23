@@ -36,7 +36,7 @@ body {
 
 .checker--white {
 	background-color: #fff;
-	border: .2rem solid #000;
+	border: .2rem solid #ccc;
 }
 .checker--black {
 	background-color: #000;
